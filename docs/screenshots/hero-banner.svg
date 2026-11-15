@@ -1,0 +1,135 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="cf-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090a16"/>
+      <stop offset="50%" stop-color="#111328"/>
+      <stop offset="100%" stop-color="#04040b"/>
+    </linearGradient>
+
+    <radialGradient id="cf-glow-purple" cx="18%" cy="32%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="cf-glow-amber" cx="84%" cy="62%" r="45%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="cf-grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#23223f" stroke-width="0.8" stroke-opacity="0.6"/>
+    </pattern>
+
+    <!-- Card Filter -->
+    <filter id="cf-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.65"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="340" rx="16" fill="url(#cf-bg)"/>
+  <rect width="1200" height="340" fill="url(#cf-grid)"/>
+  <rect width="1200" height="340" fill="url(#cf-glow-purple)"/>
+  <rect width="1200" height="340" fill="url(#cf-glow-amber)"/>
+  <rect x="1" y="1" width="1198" height="338" rx="15" fill="none" stroke="#3b375e" stroke-width="1.5" stroke-opacity="0.7"/>
+
+  <!-- Left Content Area -->
+  <g transform="translate(64, 46)">
+    <!-- Category Pill -->
+    <rect width="360" height="28" rx="14" fill="#6b21a8" fill-opacity="0.25" stroke="#a855f7" stroke-width="1" stroke-opacity="0.55"/>
+    <circle cx="16" cy="14" r="4.5" fill="#c084fc"/>
+    <text x="30" y="18.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, monospace" font-size="11" font-weight="600" fill="#e9d5ff" letter-spacing="1">AGENT SKILLS SPEC • EPISTEMIC FORENSICS</text>
+
+    <!-- Main Title -->
+    <text x="0" y="78" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, sans-serif" font-size="37" font-weight="900" fill="#f8fafc" letter-spacing="-0.6">COUNTERFACTUAL PRE-MORTEM ORACLE</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="112" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, sans-serif" font-size="16.5" font-weight="400" fill="#cbd5e1">
+      Pre-Execution Epistemic Safety Audits, Failure World Simulation &amp; Rollback Symmetry
+    </text>
+
+    <!-- Value Proposition Sentence -->
+    <text x="0" y="140" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, sans-serif" font-size="13.5" font-weight="400" fill="#94a3b8">
+      Fills the zero-dot whitespace before mutation: checks TOCTOU, silent exceptions, intent drift &amp; inverse actions.
+    </text>
+
+    <!-- Feature Pills Row -->
+    <g transform="translate(0, 178)">
+      <!-- Pill 1: 7 Failure Worlds -->
+      <g transform="translate(0, 0)">
+        <rect width="150" height="34" rx="8" fill="#1e1b4b" fill-opacity="0.75" stroke="#a855f7" stroke-width="1" stroke-opacity="0.5"/>
+        <circle cx="16" cy="17" r="4" fill="#c084fc"/>
+        <text x="28" y="21.5" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#f3e8ff">7 Failure Worlds</text>
+      </g>
+      <!-- Pill 2: Safety Score 100 -->
+      <g transform="translate(160, 0)">
+        <rect width="154" height="34" rx="8" fill="#064e3b" fill-opacity="0.4" stroke="#10b981" stroke-width="1" stroke-opacity="0.5"/>
+        <circle cx="16" cy="17" r="4" fill="#34d399"/>
+        <text x="28" y="21.5" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#d1fae5">Safety Score 100/100</text>
+      </g>
+      <!-- Pill 3: Rollback Symmetry -->
+      <g transform="translate(324, 0)">
+        <rect width="156" height="34" rx="8" fill="#451a03" fill-opacity="0.4" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.5"/>
+        <circle cx="16" cy="17" r="4" fill="#fbbf24"/>
+        <text x="28" y="21.5" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#fef3c7">Rollback Symmetry</text>
+      </g>
+      <!-- Pill 4: Zero-Dot Void -->
+      <g transform="translate(490, 0)">
+        <rect width="144" height="34" rx="8" fill="#1e293b" fill-opacity="0.75" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.45"/>
+        <circle cx="16" cy="17" r="4" fill="#38bdf8"/>
+        <text x="28" y="21.5" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#e0f2fe">Zero-Dot Whitespace</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Visual / Epistemic Simulation Area -->
+  <g transform="translate(730, 42)">
+    <!-- Container -->
+    <rect width="406" height="256" rx="14" fill="#0f1123" fill-opacity="0.8" stroke="#3f3b6a" stroke-width="1.2" filter="url(#cf-shadow)"/>
+
+    <!-- Header -->
+    <rect x="0" y="0" width="406" height="36" rx="14" fill="#1b1c35" fill-opacity="0.6"/>
+    <circle cx="18" cy="18" r="4.5" fill="#ef4444"/>
+    <circle cx="34" cy="18" r="4.5" fill="#f59e0b"/>
+    <circle cx="50" cy="18" r="4.5" fill="#10b981"/>
+    <text x="203" y="22" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11" font-weight="500" fill="#c4b5fd">pearl-causal-simulator • Y(X=x) ⊥ U</text>
+
+    <!-- Causality Fork Graph -->
+    <!-- Start State -->
+    <rect x="22" y="118" width="86" height="36" rx="8" fill="#2e1065" stroke="#c084fc" stroke-width="1.4"/>
+    <text x="65" y="140" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700" fill="#e9d5ff">State S(t)</text>
+
+    <!-- Branch Paths -->
+    <!-- Upper Timeline: Ground Truth Guarded Path -->
+    <path d="M 108 132 C 148 132, 160 88, 204 88" stroke="#10b981" stroke-width="2.2" fill="none"/>
+    <path d="M 204 88 L 268 88" stroke="#10b981" stroke-width="2.2" fill="none"/>
+
+    <rect x="250" y="70" width="138" height="36" rx="8" fill="#064e3b" fill-opacity="0.6" stroke="#10b981" stroke-width="1.5"/>
+    <circle cx="266" cy="88" r="5" fill="#34d399"/>
+    <text x="328" y="92" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700" fill="#a7f3d0">SAFE_TO_PROCEED</text>
+
+    <!-- Lower Timeline: Counterfactual Failure Path Intercepted -->
+    <path d="M 108 140 C 148 140, 160 184, 190 184" stroke="#f59e0b" stroke-dasharray="4 3" stroke-width="2" fill="none"/>
+    
+    <!-- Oracle Intercept Shield -->
+    <g transform="translate(182, 166)">
+      <rect width="66" height="36" rx="8" fill="#78350f" fill-opacity="0.7" stroke="#fbbf24" stroke-width="1.4"/>
+      <text x="33" y="22" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" font-weight="800" fill="#fef3c7">ORACLE</text>
+    </g>
+
+    <path d="M 248 184 L 284 184" stroke="#ef4444" stroke-dasharray="3 3" stroke-width="1.8" fill="none"/>
+
+    <!-- Prevented Hazard Tag -->
+    <rect x="284" y="166" width="104" height="36" rx="8" fill="#450a0a" fill-opacity="0.5" stroke="#ef4444" stroke-width="1.2"/>
+    <text x="336" y="188" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" font-weight="700" fill="#fca5a5">BLOCKED HAZARD</text>
+
+    <!-- Bottom Status Banner in Container -->
+    <g transform="translate(18, 222)">
+      <rect width="370" height="22" rx="6" fill="#581c87" fill-opacity="0.3" stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.6"/>
+      <circle cx="12" cy="11" r="3.5" fill="#c084fc"/>
+      <text x="22" y="14.5" font-family="ui-monospace, monospace" font-size="10" font-weight="600" fill="#e9d5ff">ROLLBACK SYMMETRY: 100% • 24 TESTS VERIFIED PASS</text>
+    </g>
+  </g>
+</svg>
